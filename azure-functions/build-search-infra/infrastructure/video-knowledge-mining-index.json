@@ -134,7 +134,7 @@
     {
       "name": "keywords",
       "type": "Collection(Edm.String)",
-      "facetable": false,
+      "facetable": true,
       "filterable": true,
       "retrievable": true,
       "searchable": true,
@@ -160,7 +160,7 @@
     {
       "name": "faces",
       "type": "Collection(Edm.String)",
-      "facetable": false,
+      "facetable": true,
       "filterable": true,
       "retrievable": true,
       "searchable": true,
@@ -173,7 +173,7 @@
     {
       "name": "labels",
       "type": "Collection(Edm.String)",
-      "facetable": false,
+      "facetable": true,
       "filterable": true,
       "retrievable": true,
       "searchable": true,
@@ -199,7 +199,7 @@
     {
       "name": "namedLocations",
       "type": "Collection(Edm.String)",
-      "facetable": false,
+      "facetable": true,
       "filterable": true,
       "retrievable": true,
       "searchable": true,
@@ -212,7 +212,7 @@
     {
       "name": "namedPeople",
       "type": "Collection(Edm.String)",
-      "facetable": false,
+      "facetable": true,
       "filterable": true,
       "retrievable": true,
       "searchable": false,
