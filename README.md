@@ -33,7 +33,7 @@ and required infrastructure to set up the full end-to-end solution.
 To deploy the full solution and the Web Application, select the following button:
 <br>
 <br>
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fruoccofabrizio%2Fazure-search-video-knowledge-mining%2Fmaster%2Finfrastructure%2FARM%2Ftemplate.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Flaryxm%2Fazure-search-video-knowledge-mining%2Fmaster%2Finfrastructure%2FARM%2Ftemplate.json)
 
 The Azure portal displays a pane that allows you to easily provide parameter values. The parameters are pre-filled with the default values from the template.
 
