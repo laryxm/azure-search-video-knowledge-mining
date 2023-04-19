@@ -452,7 +452,7 @@
                 "search_api_key": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]",
                 "search_api_version": "2021-04-30-Preview",
                 "search_index": "video-knowledge-mining-index",
-                "WEBSITE_RUN_FROM_PACKAGE": "https://csciblob.blob.core.windows.net/deploy/20220301160704-da5f60cc-ab47-41ee-98e3-aa2a7e3cab97.squashfs",
+                "WEBSITE_RUN_FROM_PACKAGE": "https://videokmdjlwco.blob.core.windows.net/azure-functions/azure-functions.zip?sp=rcw&st=2023-04-19T03:49:13Z&se=2023-12-30T11:49:13Z&sv=2021-12-02&sr=b&sig=%2FTtoFVlwtwbe6cUYcJzqgFOR1jbmiA0Q1Tx7oQvwAck%3D",
                 "video_indexer_account_id" : "[reference(resourceId('Microsoft.VideoIndexer/accounts', parameters('videoAnalyzerMediaName')), '2021-11-10-preview').accountId]",
                 "video_indexer_resource_id" : "[resourceId('Microsoft.VideoIndexer/accounts', parameters('videoAnalyzerMediaName'))]",
                 "video_indexer_endpoint" : "https://api.videoindexer.ai",
