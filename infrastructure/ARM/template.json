@@ -362,7 +362,7 @@
                         },
                         {
                             "name" :"WEBSITE_RUN_FROM_PACKAGE",
-                            "value" : "https://csciblob.blob.core.windows.net/deploy/20220301160704-da5f60cc-ab47-41ee-98e3-aa2a7e3cab97.squashfs"
+                            "value" : "https://aidemofiles.blob.core.windows.net/azure-search-video-knowledge-mining/azure-functions.zip"
                         }
                     ]
                 },
