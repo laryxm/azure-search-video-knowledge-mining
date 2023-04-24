@@ -362,7 +362,7 @@
                         },
                         {
                             "name" :"WEBSITE_RUN_FROM_PACKAGE",
-                            "value" : "https://aidemofiles.blob.core.windows.net/azure-search-video-knowledge-mining/azure-functions.zip"
+                            "value" : "https://aifilesfordemos.blob.core.windows.net/azure-search-video-knowledge-mining/azure-functions.zip"
                         }
                     ]
                 },
@@ -452,7 +452,7 @@
                 "search_api_key": "[listAdminKeys(concat('Microsoft.Search/searchServices/', parameters('searchServicesName')), '2021-04-01-preview').primaryKey]",
                 "search_api_version": "2021-04-30-Preview",
                 "search_index": "video-knowledge-mining-index",
-                "WEBSITE_RUN_FROM_PACKAGE": "https://aidemofiles.blob.core.windows.net/azure-search-video-knowledge-mining/azure-functions.zip",
+                "WEBSITE_RUN_FROM_PACKAGE": "https://aifilesfordemos.blob.core.windows.net/azure-search-video-knowledge-mining/azure-functions.zip",
                 "video_indexer_account_id" : "[reference(resourceId('Microsoft.VideoIndexer/accounts', parameters('videoAnalyzerMediaName')), '2021-11-10-preview').accountId]",
                 "video_indexer_resource_id" : "[resourceId('Microsoft.VideoIndexer/accounts', parameters('videoAnalyzerMediaName'))]",
                 "video_indexer_endpoint" : "https://api.videoindexer.ai",
